@@ -1,8 +1,4 @@
-# day1
-
-## Problem solved: 1
----
-### Hashmap in Java 
+# Hashmap in Java 
 
 A class very similar to HashMap is Hashtable and both are collections that implement the Map interface. Also, the put(), get(), remove(), and containsKey() methods provide constant-time performance O(1).
 
@@ -48,6 +44,9 @@ hashMapName.remove(key);
 //Check If a Key or Value Exists in the Map. Return boolean. Importantly, the complexity to check if a key exists is O(1), while the complexity to check for an element is O(n), as it's necessary to loop over all the elements in the map.
 hashMapName.containsKey(key);
 hashMapName.containsValue(value);
+
+//used to get the size of the map which refers to the number of the key-value pair or mappings in the Map
+hashMapName.size();
 
 //Other functions provided: keySet(); getKey(); getValue(); entrySet();
 for(Map.Entry<Type1, Type2> entry : hashMapName.entrySet()) {
